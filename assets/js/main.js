@@ -129,7 +129,7 @@
 
   /* ---------- Contadores: números que sobem ao aparecer ---------- */
   (function setupCounters() {
-    const nums = document.querySelectorAll(".stat-num[data-count]");
+    const nums = document.querySelectorAll(".stat-num[data-count], .stat-num[data-years]");
     if (!nums.length) return;
     const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     const target = (el) => el.hasAttribute("data-years")

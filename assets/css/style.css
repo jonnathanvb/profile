@@ -255,12 +255,19 @@ a:hover { text-decoration: underline; }
   display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-bottom: 2.25rem;
 }
 .stat {
-  text-align: center; background: var(--surface); border: 1px solid var(--border);
+  display: flex; flex-direction: column; justify-content: center; text-align: center;
+  background: var(--surface); border: 1px solid var(--border);
   border-radius: 12px; padding: 1.1rem .75rem; transition: .2s;
 }
 .stat:hover { border-color: var(--accent); transform: translateY(-3px); }
 .stat-num { font-family: var(--font-head); font-size: 1.9rem; font-weight: 700; color: var(--accent); line-height: 1; }
 .stat-label { color: var(--muted); font-size: .82rem; margin-top: .4rem; }
+
+/* Cards clicáveis (Alura) */
+a.stat { color: inherit; text-decoration: none; }
+.stat-cue { display: block; margin-top: .45rem; font-size: .72rem; color: var(--muted); transition: .2s; }
+.stat-cue i { font-size: .72rem; }
+.stat-link:hover .stat-cue { color: var(--accent); }
 @media (max-width: 575.98px) { .stats { grid-template-columns: 1fr; } }
 
 /* ---------- Scroll-reveal (entrada animada) ----------

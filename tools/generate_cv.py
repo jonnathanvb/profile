@@ -50,25 +50,20 @@ PT = {
     "sec": {"about": "Sobre", "exp": "Experiência", "edu": "Formação",
             "skills": "Competências", "high": "Destaques", "lang": "Idiomas"},
     "about": [
-        "Engenheiro de Software com mais de {years} anos de experiência no desenvolvimento e "
-        "arquitetura de soluções com foco em .NET e C#. Atuei desde o desenvolvimento full "
-        "stack até a definição de arquitetura de sistemas centralizados e distribuídos, com "
-        "passagem por startups e empresas de tecnologia no Brasil e em Portugal.",
-        "Ao longo da carreira, desenvolvi expertise em domínios técnicos exigentes. Um dos "
-        "marcos mais relevantes foi a implementação de sistemas de integração fiscal no "
-        "Brasil, com foco em NFC-e (Nota Fiscal do Consumidor Eletrônica) — um domínio que "
-        "exige precisão técnica, profundo conhecimento de legislação tributária e integração "
-        "com SEFAZ, certificados digitais e regras fiscais estaduais. Essa experiência me fez "
-        "desenvolver uma atenção redobrada à confiabilidade, conformidade e tratamento de "
-        "falhas em sistemas críticos.",
-        "Tenho sólida experiência em back-end com C# e .NET, front-end com Angular, "
-        "integração de APIs REST, implementação de SSO com KeyCloak, automação de "
-        "infraestrutura com Terraform e pipelines de CI/CD. Na nuvem, trabalho com Microsoft "
-        "Azure com foco em arquitetura de soluções.",
-        "Como Arquiteto de Soluções, fui responsável por decisões estratégicas: definição de "
-        "arquitetura, escolha de stack, governança técnica, avaliação de riscos e suporte às "
-        "equipes de desenvolvimento — sempre com foco em qualidade, desempenho e alinhamento "
-        "com os objetivos do negócio.",
+        "Engenheiro de software com mais de {years} anos de experiência ajudando empresas a "
+        "transformar a operação do dia a dia em sistemas confiáveis, com forte vivência em "
+        "varejo, ponto de venda (PDV) e gestão empresarial (ERP). Atuo de ponta a ponta — do "
+        "desenvolvimento full stack à definição de arquitetura de sistemas distribuídos —, "
+        "com passagem por startups e empresas de tecnologia no Brasil e em Portugal.",
+        "Conheço de perto os módulos que sustentam o negócio: estoque, vendas, financeiro "
+        "(fechamento de caixa e conciliação) e fiscal (emissão de NFC-e e integração com a "
+        "SEFAZ). Também atuei com o ERP TOTVS (Protheus), entendendo as rotinas de quem opera "
+        "esses processos no dia a dia.",
+        "Essa vivência me trouxe atenção redobrada à confiabilidade e à conformidade — em "
+        "sistemas que lidam com dinheiro e obrigações fiscais, cada detalhe importa. No lado "
+        "técnico, trabalho com back-end em C#/.NET, front-end em Angular e nuvem Microsoft "
+        "Azure; como Arquiteto de Soluções, atuo nas decisões estratégicas (arquitetura, "
+        "governança técnica e mentoria), sempre alinhado aos objetivos do negócio.",
     ],
     "experience": [
         ("Genesis Digital Solutions", "Lisboa, Portugal · Remoto", [
@@ -145,25 +140,20 @@ EN = {
     "sec": {"about": "About", "exp": "Experience", "edu": "Education",
             "skills": "Skills", "high": "Highlights", "lang": "Languages"},
     "about": [
-        "Software Engineer with over {years} years of experience in software development and "
-        "solutions architecture, focused on .NET and C#. I have worked from full stack "
-        "development to defining the architecture of centralized and distributed systems, "
-        "with experience at startups and technology companies in Brazil and Portugal.",
-        "Throughout my career, I have developed expertise in demanding technical domains. "
-        "One of the most significant milestones was implementing fiscal integration systems "
-        "in Brazil, focused on NFC-e (Brazil's electronic consumer invoice) — a domain that "
-        "requires technical precision, deep knowledge of tax legislation and integration "
-        "with SEFAZ, digital certificates and state-level tax rules. This experience gave me "
-        "heightened attention to reliability, compliance and fault handling in critical "
-        "systems.",
-        "I have solid experience in back-end with C# and .NET, front-end with Angular, REST "
-        "API integration, SSO implementation with Keycloak, infrastructure automation with "
-        "Terraform and CI/CD pipelines. In the cloud, I work with Microsoft Azure focused on "
-        "solutions architecture.",
-        "As a Solutions Architect, I was responsible for strategic decisions: architecture "
-        "definition, stack selection, technical governance, risk assessment and support to "
-        "development teams — always focused on quality, performance and alignment with "
-        "business goals.",
+        "Software engineer with over {years} years of experience helping companies turn "
+        "day-to-day operations into reliable systems, with a strong background in retail, "
+        "point of sale (POS) and enterprise management (ERP). I work end to end — from full "
+        "stack development to the architecture of distributed systems — with experience at "
+        "startups and technology companies in Brazil and Portugal.",
+        "I know the modules that run the business firsthand: inventory, sales, finance (cash "
+        "closing and reconciliation) and fiscal (NFC-e issuance and SEFAZ integration). I "
+        "also worked with the TOTVS (Protheus) ERP, understanding the daily routines of the "
+        "people who operate these processes.",
+        "This background gave me heightened attention to reliability and compliance — in "
+        "systems that handle money and tax obligations, every detail matters. On the "
+        "technical side, I work with C#/.NET back-end, Angular front-end and Microsoft Azure "
+        "cloud; as a Solutions Architect, I drive strategic decisions (architecture, "
+        "technical governance and mentoring), always aligned with business goals.",
     ],
     "experience": [
         ("Genesis Digital Solutions", "Lisbon, Portugal · Remote", [
