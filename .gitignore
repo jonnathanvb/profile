@@ -1,0 +1,22 @@
+# Sistema operacional
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Editores / IDEs
+.vscode/
+.idea/
+*.swp
+
+# Configuração local do Claude Code
+.claude/
+
+# Previews temporários da geração de PDF
+assets/cv/_preview*.png
+
+# Material de origem (PDF do currículo e revisões)
+docs/
+
+# Logs e temporários
+*.log
+node_modules/

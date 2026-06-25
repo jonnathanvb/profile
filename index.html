@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-bs-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title data-i18n="meta.title">Jonnathan Barroso — Engenheiro de Software</title>
+  <meta name="description" data-i18n="meta.description"
+        content="Currículo de Jonnathan Barroso, engenheiro de software com mais de 12 anos de experiência em arquitetura de software, .NET/C# e Azure.">
+  <meta name="author" content="Jonnathan Barroso">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Jonnathan Barroso — Engenheiro de Software">
+  <meta property="og:description"
+        content="Engenheiro de software com 12+ anos de experiência em arquitetura de software, .NET/C# e Azure.">
+  <meta property="og:image" content="assets/img/photo.jpg">
+  <meta name="twitter:card" content="summary">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+  <link rel="apple-touch-icon" href="assets/img/photo.jpg">
+
+  <!-- Google Fonts (autorizado) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap 5.3.8 + Bootstrap Icons (autorizado) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+
+  <!-- Estilos próprios -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- Scripts próprios -->
+  <script src="assets/js/i18n.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" defer></script>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="90" tabindex="0">
+
+  <!-- Barra superior (apenas em telas pequenas) -->
+  <nav class="topbar navbar d-lg-none">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-semibold" href="#home">Jonnathan Barroso</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+              data-bs-target="#sidebar" aria-controls="sidebar"
+              aria-label="Abrir menu" data-i18n-attr="aria-label:nav.open">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </nav>
+
+  <div class="layout">
+
+    <!-- ===================== SIDEBAR / CARD DE PERFIL ===================== -->
+    <aside class="sidebar offcanvas-lg offcanvas-start" id="sidebar" tabindex="-1"
+           aria-label="Menu e perfil">
+      <div class="offcanvas-header d-lg-none">
+        <span class="fw-semibold">Jonnathan Barroso</span>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                data-bs-target="#sidebar" aria-label="Fechar"
+                data-i18n-attr="aria-label:nav.close"></button>
+      </div>
+
+      <div class="offcanvas-body sidebar-body">
+        <div class="profile-card text-center">
+          <img src="assets/img/photo.jpg" alt="Foto de Jonnathan Barroso" class="profile-avatar" width="120" height="120">
+          <h1 class="profile-name">Jonnathan Barroso</h1>
+          <p class="profile-role" data-i18n="profile.role">Software Engineer | .NET | C# | Azure | Tech Lead | Arquiteto de Soluções</p>
+
+          <ul class="social-list" aria-label="Redes e links">
+            <li>
+              <a href="https://www.linkedin.com/in/jonnathanvb/" target="_blank" rel="noopener"
+                 aria-label="LinkedIn"><i class="bi bi-linkedin" aria-hidden="true"></i></a>
+            </li>
+            <li>
+              <a href="https://github.com/jonnathanvb" target="_blank" rel="noopener"
+                 aria-label="GitHub"><i class="bi bi-github" aria-hidden="true"></i></a>
+            </li>
+            <li>
+              <a href="https://cursos.alura.com.br/user/jonnathanvb" target="_blank" rel="noopener"
+                 aria-label="Alura"><i class="bi bi-mortarboard-fill" aria-hidden="true"></i></a>
+            </li>
+            <li>
+              <a href="mailto:contato@macstudio.com.br"
+                 aria-label="E-mail"><i class="bi bi-envelope-fill" aria-hidden="true"></i></a>
+            </li>
+          </ul>
+
+          <div class="profile-actions">
+            <a class="btn btn-accent w-100" id="downloadCv"
+               href="assets/cv/Jonnathan_Barroso_CV_pt.pdf"
+               data-cv-pt="assets/cv/Jonnathan_Barroso_CV_pt.pdf"
+               data-cv-en="assets/cv/Jonnathan_Barroso_CV_en.pdf" download>
+              <i class="bi bi-filetype-pdf" aria-hidden="true"></i>
+              <span data-i18n="profile.download">Baixar CV</span>
+            </a>
+            <button type="button" id="printCv" class="btn btn-outline-light w-100 mt-2">
+              <i class="bi bi-printer" aria-hidden="true"></i>
+              <span data-i18n="profile.print">Imprimir</span>
+            </button>
+          </div>
+        </div>
+
+        <nav class="nav side-nav flex-column" id="mainNav" aria-label="Navegação principal">
+          <a class="nav-link" href="#home"><i class="bi bi-house" aria-hidden="true"></i><span data-i18n="nav.home">Início</span></a>
+          <a class="nav-link" href="#about"><i class="bi bi-person" aria-hidden="true"></i><span data-i18n="nav.about">Sobre</span></a>
+          <a class="nav-link" href="#resume"><i class="bi bi-file-earmark-text" aria-hidden="true"></i><span data-i18n="nav.resume">Currículo</span></a>
+          <a class="nav-link" href="#contact"><i class="bi bi-chat-dots" aria-hidden="true"></i><span data-i18n="nav.contact">Contato</span></a>
+        </nav>
+
+        <div class="lang-switch" role="group" aria-label="Idioma / Language">
+          <button type="button" class="lang-btn active" data-lang="pt-BR" aria-pressed="true">PT</button>
+          <span class="lang-sep" aria-hidden="true">/</span>
+          <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+      </div>
+    </aside>
+
+    <!-- ===================== CONTEÚDO ===================== -->
+    <main class="content">
+
+      <!-- ---------- HOME ---------- -->
+      <section id="home" class="section section-home">
+        <div class="home-inner">
+          <p class="home-greeting" data-i18n="home.greeting">Olá, eu sou</p>
+          <h2 class="home-name">Jonnathan Barroso</h2>
+          <p class="home-typed-wrap">
+            <span class="home-typed-prefix" data-i18n="home.iam">Sou</span>
+            <span id="typed" class="home-typed"></span><span class="home-cursor" aria-hidden="true">|</span>
+          </p>
+          <p class="home-lead" data-i18n="home.lead">
+            Mais de 12 anos transformando requisitos de negócio em sistemas escaláveis,
+            com foco em arquitetura de software, back-end .NET e nuvem Azure.
+          </p>
+          <div class="home-cta">
+            <a class="btn btn-accent" href="#resume" data-i18n="home.ctaResume">Ver currículo</a>
+            <a class="btn btn-outline-light" href="#contact" data-i18n="home.ctaContact">Fale comigo</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ---------- ABOUT ---------- -->
+      <section id="about" class="section">
+        <header class="section-head">
+          <h2 class="section-title" data-i18n="about.title">Sobre mim</h2>
+          <span class="section-line" aria-hidden="true"></span>
+        </header>
+
+        <div class="stats" aria-label="Indicadores de carreira">
+          <div class="stat">
+            <div class="stat-num" data-years data-suffix="+">12+</div>
+            <div class="stat-label" data-i18n="stats.years">Anos de experiência</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num" data-count="280" data-suffix="+">280+</div>
+            <div class="stat-label" data-i18n="stats.courses">Cursos concluídos</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num" data-count="11427">11.427</div>
+            <div class="stat-label" data-i18n="stats.exercises">Exercícios resolvidos</div>
+          </div>
+        </div>
+
+        <div class="row g-4 align-items-start">
+          <div class="col-lg-7">
+            <p class="about-text" data-i18n="about.p1">
+              Engenheiro de Software com mais de 12 anos de experiência no desenvolvimento e
+              arquitetura de soluções com foco em .NET e C#. Atuei desde o desenvolvimento
+              full stack até a definição de arquitetura de sistemas centralizados e
+              distribuídos, com passagem por startups e empresas de tecnologia no Brasil e
+              em Portugal.
+            </p>
+            <p class="about-text" data-i18n="about.p2">
+              Ao longo da carreira, desenvolvi expertise em domínios técnicos exigentes. Um
+              dos marcos mais relevantes foi a implementação de sistemas de integração fiscal
+              no Brasil, com foco em NFC-e (Nota Fiscal do Consumidor Eletrônica) — um domínio
+              que exige precisão técnica, profundo conhecimento de legislação tributária e
+              integração com SEFAZ, certificados digitais e regras fiscais estaduais. Essa
+              experiência me fez desenvolver uma atenção redobrada à confiabilidade,
+              conformidade e tratamento de falhas em sistemas críticos.
+            </p>
+            <p class="about-text" data-i18n="about.p3">
+              Tenho sólida experiência em back-end com C# e .NET, front-end com Angular,
+              integração de APIs REST, implementação de SSO com KeyCloak, automação de
+              infraestrutura com Terraform e pipelines de CI/CD. Na nuvem, trabalho com
+              Microsoft Azure com foco em arquitetura de soluções.
+            </p>
+            <p class="about-text" data-i18n="about.p4">
+              Como Arquiteto de Soluções, fui responsável por decisões estratégicas: definição
+              de arquitetura, escolha de stack, governança técnica, avaliação de riscos e
+              suporte às equipes de desenvolvimento — sempre com foco em qualidade, desempenho
+              e alinhamento com os objetivos do negócio.
+            </p>
+          </div>
+          <div class="col-lg-5">
+            <ul class="facts-list">
+              <li><i class="bi bi-geo-alt" aria-hidden="true"></i>
+                <span><span class="fact-label" data-i18n="about.location">Localização</span>: Itapevi, São Paulo — Brasil</span></li>
+              <li><i class="bi bi-envelope" aria-hidden="true"></i>
+                <span><span class="fact-label">E-mail</span>: <a href="mailto:contato@macstudio.com.br">contato@macstudio.com.br</a></span></li>
+              <li><i class="bi bi-translate" aria-hidden="true"></i>
+                <span><span class="fact-label" data-i18n="about.languages">Idiomas</span>: <span data-i18n="about.languagesValue">Português (Nativo), Inglês (Básico)</span></span></li>
+              <li><i class="bi bi-briefcase" aria-hidden="true"></i>
+                <span><span class="fact-label" data-i18n="about.availability">Disponibilidade</span>: <span data-i18n="about.availabilityValue">Aberto a novas oportunidades</span></span></li>
+            </ul>
+          </div>
+        </div>
+
+        <h3 class="subsection-title" data-i18n="about.whatIDo">O que eu faço</h3>
+        <div class="row g-3">
+          <div class="col-sm-6 col-xl-3">
+            <div class="service-card">
+              <i class="bi bi-diagram-3" aria-hidden="true"></i>
+              <h4 data-i18n="about.s1.title">Arquitetura de Software</h4>
+              <p data-i18n="about.s1.text">Sistemas distribuídos, padrões e governança técnica.</p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-xl-3">
+            <div class="service-card">
+              <i class="bi bi-server" aria-hidden="true"></i>
+              <h4 data-i18n="about.s2.title">Back-end (.NET / C#)</h4>
+              <p data-i18n="about.s2.text">APIs, integrações e serviços escaláveis.</p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-xl-3">
+            <div class="service-card">
+              <i class="bi bi-window" aria-hidden="true"></i>
+              <h4 data-i18n="about.s3.title">Front-end</h4>
+              <p data-i18n="about.s3.text">Angular, HTML, CSS e JavaScript.</p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-xl-3">
+            <div class="service-card">
+              <i class="bi bi-cloud" aria-hidden="true"></i>
+              <h4 data-i18n="about.s4.title">Cloud &amp; DevOps</h4>
+              <p data-i18n="about.s4.text">Azure, IaC (Terraform), CI/CD e Kubernetes.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ---------- RESUME ---------- -->
+      <section id="resume" class="section">
+        <header class="section-head">
+          <h2 class="section-title" data-i18n="resume.title">Currículo</h2>
+          <span class="section-line" aria-hidden="true"></span>
+        </header>
+
+        <div class="row g-5">
+          <!-- Experiência -->
+          <div class="col-lg-6">
+            <h3 class="subsection-title"><i class="bi bi-briefcase-fill" aria-hidden="true"></i>
+              <span data-i18n="resume.experience">Experiência</span></h3>
+
+            <div class="timeline">
+              <!-- Genesis -->
+              <article class="timeline-item">
+                <div class="timeline-top">
+                  <h4 class="timeline-org">Genesis Digital Solutions</h4>
+                  <span class="timeline-place">Lisboa, Portugal · <span data-i18n="common.remote">Remoto</span></span>
+                </div>
+                <div class="timeline-role">
+                  <span class="role-title" data-i18n="resume.r.genesis.title">Desenvolvedor Full Stack</span>
+                  <span class="role-period">out 2024 – fev 2026</span>
+                </div>
+                <p class="timeline-desc" data-i18n="resume.r.genesis.desc">
+                  Back-end .NET (C#) e front-end (Angular, Vue), Infraestrutura como Código
+                  (IaC/Terraform), CI/CD e Azure (Web Apps, Functions, Storage, Service Bus,
+                  Database, VM).
+                </p>
+              </article>
+
+              <!-- Freelance -->
+              <article class="timeline-item">
+                <div class="timeline-top">
+                  <h4 class="timeline-org">Freelance</h4>
+                  <span class="timeline-place"><span data-i18n="common.remote">Remoto</span></span>
+                </div>
+                <div class="timeline-role">
+                  <span class="role-title" data-i18n="resume.r.freela.title">Desenvolvedor de Software</span>
+                  <span class="role-period">out 2024 – mar 2025</span>
+                </div>
+                <p class="timeline-desc" data-i18n="resume.r.freela.desc">
+                  Desenvolvimento de um sistema de SSO (Single Sign-On) baseado em Keycloak.
+                </p>
+              </article>
+
+              <!-- Linked Tech -->
+              <article class="timeline-item">
+                <div class="timeline-top">
+                  <h4 class="timeline-org">Linked Tech</h4>
+                  <span class="timeline-place">São Paulo, Brasil</span>
+                </div>
+                <div class="timeline-role">
+                  <span class="role-title" data-i18n="resume.r.linked.a.title">Arquiteto de Soluções</span>
+                  <span class="role-period">fev 2019 – out 2024</span>
+                </div>
+                <p class="timeline-desc" data-i18n="resume.r.linked.a.desc">
+                  Arquitetura de uma plataforma de PDV/food-service em microsserviços .NET
+                  (Clean Architecture e CQRS), com bibliotecas compartilhadas (NuGet) e
+                  persistência poliglota (SQL Server, Redis, CouchDB e SQLite offline).
+                  Mensageria com Azure Service Bus, módulos em tempo real (KDS via Socket.IO)
+                  e integração fiscal (SEFAZ/NFCe, SAT) e de periféricos. Responsável por
+                  padrões técnicos, governança, revisão de código, infraestrutura Azure
+                  (Azure Container Apps) com CI/CD e mentoria do time.
+                </p>
+                <div class="timeline-role">
+                  <span class="role-title" data-i18n="resume.r.linked.b.title">Desenvolvedor Full Stack</span>
+                  <span class="role-period">set 2018 – jan 2019</span>
+                </div>
+                <p class="timeline-desc" data-i18n="resume.r.linked.b.desc">
+                  Desenvolvimento back-end (C#) e front-end (Angular) do PDV, com integrações
+                  de meios de pagamento (POS Stone) e plataformas de delivery (iFood, Rappi),
+                  automação de infraestrutura e CI/CD.
+                </p>
+              </article>
+
+              <!-- Iterative -->
+              <article class="timeline-item">
+                <div class="timeline-top">
+                  <h4 class="timeline-org">Iterative</h4>
+                  <span class="timeline-place">São Paulo, Brasil</span>
+                </div>
+                <div class="timeline-role">
+                  <span class="role-title" data-i18n="resume.r.iterative.title">Desenvolvedor Full Stack</span>
+                  <span class="role-period">jun 2017 – ago 2018</span>
+                </div>
+                <p class="timeline-desc" data-i18n="resume.r.iterative.desc">
+                  APIs em .NET (projeto ConectCar), boas práticas de front-end com Angular
+                  (projeto Poder do Voto) e aplicação web (HTML/CSS/JS) para o POS da Stone.
+                </p>
+              </article>
+
+              <!-- Betta -->
+              <article class="timeline-item">
+                <div class="timeline-top">
+                  <h4 class="timeline-org">Betta Tecnologia</h4>
+                  <span class="timeline-place">São Paulo, Brasil</span>
+                </div>
+                <div class="timeline-role">
+                  <span class="role-title" data-i18n="resume.r.betta.title">Desenvolvedor</span>
+                  <span class="role-period">jan 2017 – jun 2017</span>
+                </div>
+                <p class="timeline-desc" data-i18n="resume.r.betta.desc">
+                  Desenvolvimento e manutenção de sistemas (.NET e PHP) para as universidades
+                  FMU e Anhembi Morumbi.
+                </p>
+              </article>
+
+              <!-- Link do Brasil -->
+              <article class="timeline-item">
+                <div class="timeline-top">
+                  <h4 class="timeline-org">Link do Brasil</h4>
+                  <span class="timeline-place">Barueri, São Paulo</span>
+                </div>
+                <div class="timeline-role">
+                  <span class="role-title" data-i18n="resume.r.link.a.title">Desenvolvedor</span>
+                  <span class="role-period">jul 2015 – dez 2016</span>
+                </div>
+                <p class="timeline-desc" data-i18n="resume.r.link.a.desc">
+                  Sistemas internos em C#, manutenção em VB.NET e suporte ao ERP TOTVS.
+                </p>
+                <div class="timeline-role">
+                  <span class="role-title" data-i18n="resume.r.link.b.title">Estagiário</span>
+                  <span class="role-period">jul 2013 – jun 2015</span>
+                </div>
+                <p class="timeline-desc" data-i18n="resume.r.link.b.desc">
+                  Migração de sistemas legados de VB6 para VB.NET, manutenção de sistemas
+                  internos e suporte ao ERP TOTVS.
+                </p>
+              </article>
+            </div>
+          </div>
+
+          <!-- Coluna direita: formação, skills, destaques -->
+          <div class="col-lg-6">
+            <h3 class="subsection-title"><i class="bi bi-mortarboard-fill" aria-hidden="true"></i>
+              <span data-i18n="resume.education">Formação</span></h3>
+            <div class="timeline">
+              <article class="timeline-item">
+                <div class="timeline-top">
+                  <h4 class="timeline-org" data-i18n="resume.e.uninove.title">Bacharelado em Sistemas de Informação</h4>
+                  <span class="role-period">2014 – 2017</span>
+                </div>
+                <p class="timeline-desc">UNINOVE — Universidade Nove de Julho</p>
+              </article>
+              <article class="timeline-item">
+                <div class="timeline-top">
+                  <h4 class="timeline-org" data-i18n="resume.e.fieb.title">Técnico em Informática</h4>
+                  <span class="role-period">2012 – 2013</span>
+                </div>
+                <p class="timeline-desc">FIEB — Instituto Técnico de Barueri</p>
+              </article>
+            </div>
+
+            <h3 class="subsection-title mt-4"><i class="bi bi-bar-chart-fill" aria-hidden="true"></i>
+              <span data-i18n="resume.skills">Competências</span></h3>
+            <div class="skills">
+              <div class="skill-group">
+                <h4 class="skill-cat">Back-end</h4>
+                <ul class="chips">
+                  <li>C#</li><li>.NET</li><li>ASP.NET Core</li><li>VB.NET</li><li>Node.js</li><li>NestJS</li><li data-i18n="skill.apisrest">APIs REST</li>
+                </ul>
+              </div>
+              <div class="skill-group">
+                <h4 class="skill-cat">Front-end</h4>
+                <ul class="chips">
+                  <li>Angular</li><li>Vue</li><li>TypeScript</li><li>JavaScript</li><li>NgRx</li><li>RxJS</li><li>Angular Material</li><li>HTML</li><li>CSS/SCSS</li><li>Bootstrap</li>
+                </ul>
+              </div>
+              <div class="skill-group">
+                <h4 class="skill-cat" data-i18n="resume.skills.cat.data">Dados &amp; ORM</h4>
+                <ul class="chips">
+                  <li>SQL Server</li><li>PostgreSQL</li><li>MySQL</li><li>MongoDB</li><li>Redis</li><li>CouchDB</li><li>Elasticsearch</li><li>Entity Framework Core</li><li>Dapper</li>
+                </ul>
+              </div>
+              <div class="skill-group">
+                <h4 class="skill-cat" data-i18n="resume.skills.cat.arch">Arquitetura &amp; Integrações</h4>
+                <ul class="chips">
+                  <li data-i18n="skill.micro">Microsserviços</li><li>Clean Architecture</li><li>DDD</li><li>CQRS</li><li>SSO/OAuth2 (Keycloak)</li><li data-i18n="skill.messaging">Mensageria (Azure Service Bus)</li><li data-i18n="skill.realtime">Tempo real (Socket.IO)</li><li data-i18n="skill.fiscal">Integração fiscal (NFC-e/SEFAZ)</li>
+                </ul>
+              </div>
+              <div class="skill-group">
+                <h4 class="skill-cat">Cloud &amp; DevOps</h4>
+                <ul class="chips">
+                  <li>Azure</li><li>AWS</li><li>Docker</li><li>Azure Container Apps</li><li>Azure DevOps</li><li>Terraform (IaC)</li><li>Kubernetes</li><li>CI/CD</li>
+                </ul>
+              </div>
+              <div class="skill-group">
+                <h4 class="skill-cat" data-i18n="resume.skills.cat.tools">Ferramentas &amp; IA</h4>
+                <ul class="chips">
+                  <li>Git</li><li>Swagger/OpenAPI</li><li>Claude Code</li><li>OpenCode</li><li>Antigravity</li>
+                </ul>
+              </div>
+            </div>
+
+            <h3 class="subsection-title mt-4"><i class="bi bi-stars" aria-hidden="true"></i>
+              <span data-i18n="resume.highlights">Destaques</span></h3>
+            <ul class="highlights">
+              <li><i class="bi bi-mortarboard" aria-hidden="true"></i>
+                <span data-i18n="resume.h.alura">Alura: +280 cursos concluídos e 11.427 exercícios resolvidos</span>
+                — <a href="https://cursos.alura.com.br/user/jonnathanvb" target="_blank" rel="noopener">perfil</a></li>
+              <li><i class="bi bi-clock-history" aria-hidden="true"></i>
+                <span data-i18n="resume.h.exp">Mais de 12 anos de experiência em desenvolvimento e arquitetura</span></li>
+              <li><i class="bi bi-patch-check" aria-hidden="true"></i>
+                <span data-i18n="resume.h.cert">Foco atual: certificações Microsoft em arquitetura e IA</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- ---------- CONTACT ---------- -->
+      <section id="contact" class="section">
+        <header class="section-head">
+          <h2 class="section-title" data-i18n="contact.title">Contato</h2>
+          <span class="section-line" aria-hidden="true"></span>
+        </header>
+
+        <p class="contact-lead" data-i18n="contact.lead">
+          Vamos conversar sobre seu próximo projeto ou oportunidade? Fico à disposição.
+        </p>
+
+        <div class="row g-3">
+          <div class="col-md-6">
+            <a class="contact-card" href="mailto:contato@macstudio.com.br">
+              <i class="bi bi-envelope-fill" aria-hidden="true"></i>
+              <div><span class="contact-label">E-mail</span><span class="contact-value">contato@macstudio.com.br</span></div>
+            </a>
+          </div>
+          <div class="col-md-6">
+            <div class="contact-card">
+              <i class="bi bi-geo-alt-fill" aria-hidden="true"></i>
+              <div><span class="contact-label" data-i18n="about.location">Localização</span><span class="contact-value">Itapevi, São Paulo — Brasil</span></div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <a class="contact-card" href="https://www.linkedin.com/in/jonnathanvb/" target="_blank" rel="noopener">
+              <i class="bi bi-linkedin" aria-hidden="true"></i>
+              <div><span class="contact-label">LinkedIn</span><span class="contact-value">/in/jonnathanvb</span></div>
+            </a>
+          </div>
+          <div class="col-md-6">
+            <a class="contact-card" href="https://github.com/jonnathanvb" target="_blank" rel="noopener">
+              <i class="bi bi-github" aria-hidden="true"></i>
+              <div><span class="contact-label">GitHub</span><span class="contact-value">/jonnathanvb</span></div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <footer class="site-footer">
+        <p>© <span id="year">2026</span> Jonnathan Barroso</p>
+      </footer>
+
+    </main>
+  </div>
+</body>
+</html>

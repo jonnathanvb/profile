@@ -1,0 +1,11 @@
+# Normaliza fim de linha dos arquivos de texto (LF no repositório)
+* text=auto eol=lf
+
+# Arquivos binários: nunca aplicar conversão de fim de linha
+*.pdf  binary
+*.jpg  binary
+*.jpeg binary
+*.png  binary
+*.ico  binary
+*.woff binary
+*.woff2 binary
