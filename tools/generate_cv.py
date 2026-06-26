@@ -86,10 +86,9 @@ PT = {
              "com CI/CD e mentoria do time.",
              ["Reduzi a fila de bugs de ~1.000 para ~10, elevando de forma expressiva a "
               "estabilidade da plataforma.",
-              "Reduzi ~5% da fatura de nuvem ao corrigir um bug de consumo excessivo de "
-              "portas que disparava escalonamento indevido (falso positivo).",
-              "Reduzi ~15% do custo de hospedagem migrando serviços .NET Core de Windows "
-              "para Linux, após adequar bibliotecas sem suporte ao Linux."]),
+              "Reduzi cerca de 30% do custo de nuvem ao corrigir bugs de consumo excessivo "
+              "(ex.: escalonamento indevido por esgotamento de portas), migrar a "
+              "hospedagem de Windows para Linux e otimizar soluções existentes."]),
             ("Desenvolvedor Full Stack", "set 2018 – jan 2019",
              "Desenvolvimento back-end (C#) e front-end (Angular) do PDV, com integrações "
              "de meios de pagamento (POS Stone) e plataformas de delivery (iFood, Rappi), "
@@ -179,10 +178,9 @@ EN = {
              "Azure infrastructure (Azure Container Apps) with CI/CD and team mentoring.",
              ["Cut the bug backlog from ~1,000 to ~10, significantly improving platform "
               "stability.",
-              "Reduced cloud costs by ~5% by fixing an excessive port-consumption bug that "
-              "triggered unnecessary auto-scaling (false positive).",
-              "Reduced hosting costs by ~15% by migrating .NET Core services from Windows "
-              "to Linux, after adapting libraries that lacked Linux support."]),
+              "Reduced cloud costs by around 30% by fixing excessive-consumption bugs "
+              "(e.g., unnecessary auto-scaling caused by port exhaustion), migrating "
+              "hosting from Windows to Linux and optimizing existing solutions."]),
             ("Full Stack Developer", "Sep 2018 – Jan 2019",
              "Back-end (C#) and Angular front-end development for the POS, with payment "
              "(Stone POS) and delivery (iFood, Rappi) integrations, infrastructure "
