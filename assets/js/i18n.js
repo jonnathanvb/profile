@@ -19,7 +19,7 @@
       "nav.resume": "Currículo",
       "nav.contact": "Contato",
 
-      "profile.role": "Software Engineer | .NET | C# | Azure | Tech Lead | Arquiteto de Soluções",
+      "profile.role": "Software Engineer | .NET | C# | Azure | Tech Lead",
       "profile.download": "Baixar CV",
       "profile.print": "Imprimir",
 
@@ -107,7 +107,7 @@
       "nav.resume": "Resume",
       "nav.contact": "Contact",
 
-      "profile.role": "Software Engineer | .NET | C# | Azure | Tech Lead | Solutions Architect",
+      "profile.role": "Software Engineer | .NET | C# | Azure | Tech Lead",
       "profile.download": "Download CV",
       "profile.print": "Print",
 

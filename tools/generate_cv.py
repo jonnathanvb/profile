@@ -44,7 +44,7 @@ YEARS = int((datetime.date.today() - _EXP_START).days / 365.25)
 PT = {
     "file": "Jonnathan_Barroso_CV_pt.pdf",
     "doc_title": "Jonnathan Barroso — Currículo",
-    "role": "Software Engineer | .NET | C# | Azure | Tech Lead | Arquiteto de Soluções",
+    "role": "Software Engineer | .NET | C# | Azure | Tech Lead",
     "contact": ("Itapevi, São Paulo — Brasil &nbsp;·&nbsp; macstudio.com.br "
                 "&nbsp;·&nbsp; contato@macstudio.com.br"),
     "sec": {"about": "Sobre", "exp": "Experiência", "edu": "Formação",
@@ -139,7 +139,7 @@ PT = {
 EN = {
     "file": "Jonnathan_Barroso_CV_en.pdf",
     "doc_title": "Jonnathan Barroso — Resume",
-    "role": "Software Engineer | .NET | C# | Azure | Tech Lead | Solutions Architect",
+    "role": "Software Engineer | .NET | C# | Azure | Tech Lead",
     "contact": ("Itapevi, São Paulo — Brazil &nbsp;·&nbsp; macstudio.com.br "
                 "&nbsp;·&nbsp; contato@macstudio.com.br"),
     "sec": {"about": "About", "exp": "Experience", "edu": "Education",
