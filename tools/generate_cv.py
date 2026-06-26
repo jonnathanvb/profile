@@ -112,10 +112,40 @@ PT = {
              "desenvolvimento e orientação de times para a entrega de produtos de alto "
              "impacto."),
             ("Desenvolvedor Full Stack", "set 2018 – jan 2019",
-             ["Desenvolvimento back-end (C#) e front-end (Angular) do PDV.",
-              "Integrações de meios de pagamento (POS Stone) e delivery (iFood, Rappi).",
-              "Automação de infraestrutura e CI/CD."],
-             []),
+             ["Desenvolvimento Front-end: criação de interfaces de usuário responsivas, "
+              "acessíveis e de alta performance com Angular.",
+              "Desenvolvimento Back-end: projeto e desenvolvimento de APIs RESTful e "
+              "microsserviços escaláveis com C# (.NET).",
+              "Modelagem de Dados: modelagem, otimização e manutenção de bancos relacionais "
+              "(Microsoft SQL Server / MySQL) e NoSQL (CouchDB / Redis), garantindo "
+              "integridade e segurança dos dados.",
+              "Integração de Sistemas: integração de serviços de terceiros e APIs externas "
+              "(pagamentos Stone, marketplace iFood, e-mail, autenticação OAuth com Keycloak "
+              "e serviços de nuvem Azure).",
+              "DevOps e Infraestrutura: configuração e manutenção de pipelines de CI/CD "
+              "(Azure Pipelines, Terraform).",
+              "Qualidade de Código: escrita de testes unitários e de integração "
+              "(Jest / JUnit), revisões de código (code review) e refatoração contínua.",
+              "Metodologias Ágeis: participação ativa em cerimônias ágeis (Scrum), "
+              "refinamento de requisitos e colaboração com times de Produto (PMs, Designers "
+              "UX/UI) e QA."],
+             ["Modernização de Sistema de Vendas: migração de um sistema legado de PDV, "
+              "modernizando a interface (UI/UX) para total responsividade e compatibilidade "
+              "com dispositivos touch screen, otimizando a operação no caixa.",
+              "Desenvolvimento Mobile / Smart POS: entrega ponta a ponta de um aplicativo de "
+              "Frente de Caixa (PDV) integrado nativamente aos terminais Smart POS da Stone, "
+              "viabilizando o fluxo completo de vendas direto na maquininha.",
+              "Performance de Banco de Dados: refatoração e otimização de consultas e rotinas "
+              "de escrita, reduzindo gargalos de performance e garantindo estabilidade e "
+              "velocidade em cenários de alta concorrência.",
+              "Integrações Fiscais Complexas: implementação de módulos fiscais, com "
+              "integração de hardware e software para comunicação com equipamentos SAT e "
+              "emissão de NFC-e, garantindo 100% de conformidade tributária nas operações."],
+             "Responsável pelo ciclo de vida completo de desenvolvimento de aplicações web, "
+             "atuando desde a concepção e o design da arquitetura até a implementação, testes "
+             "e deploy. Foco na criação de interfaces dinâmicas e responsivas no front-end e "
+             "no desenvolvimento de APIs robustas e escaláveis no back-end, garantindo a "
+             "integração eficiente entre os sistemas e a entrega contínua de valor."),
         ]),
         ("Iterative", "São Paulo, Brasil", [
             ("Desenvolvedor Full Stack", "jun 2017 – ago 2018",
@@ -230,10 +260,40 @@ EN = {
              "operational costs. Focused on technical leadership, defining development "
              "standards and guiding teams to deliver high-impact products."),
             ("Full Stack Developer", "Sep 2018 – Jan 2019",
-             ["Back-end (C#) and Angular front-end development for the POS.",
-              "Payment (Stone POS) and delivery (iFood, Rappi) integrations.",
-              "Infrastructure automation and CI/CD."],
-             []),
+             ["Front-end Development: building responsive, accessible and high-performance "
+              "user interfaces with Angular.",
+              "Back-end Development: design and development of scalable RESTful APIs and "
+              "microservices with C# (.NET).",
+              "Data Modeling: modeling, optimization and maintenance of relational databases "
+              "(Microsoft SQL Server / MySQL) and NoSQL (CouchDB / Redis), ensuring data "
+              "integrity and security.",
+              "Systems Integration: integration of third-party services and external APIs "
+              "(Stone payments, iFood marketplace, email, OAuth authentication with Keycloak "
+              "and Azure cloud services).",
+              "DevOps and Infrastructure: setup and maintenance of CI/CD pipelines "
+              "(Azure Pipelines, Terraform).",
+              "Code Quality: writing unit and integration tests (Jest / JUnit), code reviews "
+              "and continuous refactoring.",
+              "Agile Methodologies: active participation in agile ceremonies (Scrum), "
+              "requirements refinement and collaboration with Product (PMs, UX/UI Designers) "
+              "and QA teams."],
+             ["Sales System Modernization: migration of a legacy POS system, modernizing the "
+              "interface (UI/UX) for full responsiveness and touch-screen compatibility, "
+              "optimizing checkout operation.",
+              "Mobile / Smart POS Development: end-to-end delivery of a point-of-sale (POS) "
+              "app natively integrated with Stone's Smart POS terminals, enabling the full "
+              "sales flow directly on the device.",
+              "Database Performance: refactoring and optimization of queries and write "
+              "routines, reducing performance bottlenecks and ensuring stability and speed "
+              "under high concurrency.",
+              "Complex Fiscal Integrations: implementation of fiscal modules, integrating "
+              "hardware and software to communicate with SAT devices and issue NFC-e, "
+              "ensuring 100% tax compliance."],
+             "Responsible for the full development lifecycle of web applications, from "
+             "concept and architecture design to implementation, testing and deployment. "
+             "Focused on building dynamic, responsive front-end interfaces and robust, "
+             "scalable back-end APIs, ensuring efficient system integration and continuous "
+             "value delivery."),
         ]),
         ("Iterative", "São Paulo, Brazil", [
             ("Full Stack Developer", "Jun 2017 – Aug 2018",
