@@ -70,7 +70,9 @@ PT = {
             ("Arquiteto de Software", "out 2024 – fev 2026",
              "Back-end .NET (C#) e front-end (Angular, Vue), Infraestrutura como Código "
              "(IaC/Terraform), CI/CD e Azure (Web Apps, Functions, Storage, Service Bus, "
-             "Database, VM)."),
+             "Database, VM).",
+             ["Projetei uma arquitetura em microsserviços dimensionada para 1.000 "
+              "requisições por minuto."]),
         ]),
         ("Linked Tech", "São Paulo, Brasil", [
             ("Arquiteto de Soluções", "fev 2019 – mar 2025",
@@ -81,7 +83,13 @@ PT = {
              "autenticação centralizada (SSO) com Keycloak e integração fiscal "
              "(SEFAZ/NFCe, SAT) e de periféricos. Responsável por padrões técnicos, "
              "governança, revisão de código, infraestrutura Azure (Azure Container Apps) "
-             "com CI/CD e mentoria do time."),
+             "com CI/CD e mentoria do time.",
+             ["Reduzi a fila de bugs de ~1.000 para ~10, elevando de forma expressiva a "
+              "estabilidade da plataforma.",
+              "Reduzi ~5% da fatura de nuvem ao corrigir um bug de consumo excessivo de "
+              "portas que disparava escalonamento indevido (falso positivo).",
+              "Reduzi ~15% do custo de hospedagem migrando serviços .NET Core de Windows "
+              "para Linux, após adequar bibliotecas sem suporte ao Linux."]),
             ("Desenvolvedor Full Stack", "set 2018 – jan 2019",
              "Desenvolvimento back-end (C#) e front-end (Angular) do PDV, com integrações "
              "de meios de pagamento (POS Stone) e plataformas de delivery (iFood, Rappi), "
@@ -157,7 +165,8 @@ EN = {
             ("Software Architect", "Oct 2024 – Feb 2026",
              "Back-end .NET (C#) and front-end (Angular, Vue), Infrastructure as Code "
              "(IaC/Terraform), CI/CD and Azure (Web Apps, Functions, Storage, Service Bus, "
-             "Database, VM)."),
+             "Database, VM).",
+             ["Designed a microservices architecture sized for 1,000 requests per minute."]),
         ]),
         ("Linked Tech", "São Paulo, Brazil", [
             ("Solutions Architect", "Feb 2019 – Mar 2025",
@@ -167,7 +176,13 @@ EN = {
              "Bus messaging, real-time modules (KDS over Socket.IO), centralized "
              "authentication (SSO) with Keycloak, and fiscal (SEFAZ/NFCe, SAT) and "
              "peripheral integrations. Owned technical standards, governance, code review, "
-             "Azure infrastructure (Azure Container Apps) with CI/CD and team mentoring."),
+             "Azure infrastructure (Azure Container Apps) with CI/CD and team mentoring.",
+             ["Cut the bug backlog from ~1,000 to ~10, significantly improving platform "
+              "stability.",
+              "Reduced cloud costs by ~5% by fixing an excessive port-consumption bug that "
+              "triggered unnecessary auto-scaling (false positive).",
+              "Reduced hosting costs by ~15% by migrating .NET Core services from Windows "
+              "to Linux, after adapting libraries that lacked Linux support."]),
             ("Full Stack Developer", "Sep 2018 – Jan 2019",
              "Back-end (C#) and Angular front-end development for the POS, with payment "
              "(Stone POS) and delivery (iFood, Rappi) integrations, infrastructure "
@@ -232,6 +247,9 @@ st_period = ParagraphStyle("period", fontName="Helvetica", fontSize=8.5,
                            textColor=MUTED, leading=12, alignment=TA_RIGHT)
 st_desc = ParagraphStyle("desc", fontName="Helvetica", fontSize=9,
                          textColor=INK, leading=12.5)
+st_result = ParagraphStyle("result", fontName="Helvetica", fontSize=8.8,
+                           textColor=INK, leading=12, spaceBefore=1,
+                           leftIndent=11, firstLineIndent=-11)
 st_eduinst = ParagraphStyle("eduinst", fontName="Helvetica", fontSize=9,
                             textColor=ACCENT, leading=12)
 st_body = ParagraphStyle("body", fontName="Helvetica", fontSize=9,
@@ -306,9 +324,13 @@ def build(data):
         story.append(Paragraph(org, st_org))
         story.append(Paragraph(place, st_place))
         story.append(Spacer(1, 2))
-        for title, period, desc in roles:
+        for role in roles:
+            title, period, desc = role[0], role[1], role[2]
+            results = role[3] if len(role) > 3 else []
             story.append(title_period(title, period, st_roletitle))
             story.append(Paragraph(desc, st_desc))
+            for r in results:
+                story.append(Paragraph('<font color="#0e7490">•</font>&nbsp; ' + r, st_result))
             story.append(Spacer(1, 4))
         story.append(Spacer(1, 3))
 

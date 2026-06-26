@@ -215,6 +215,9 @@ a:hover { text-decoration: underline; }
   border: 1px solid var(--border); border-radius: 20px; padding: .05rem .6rem; white-space: nowrap;
 }
 .timeline-desc { color: var(--muted); font-size: .9rem; line-height: 1.65; margin: .35rem 0 0; }
+.role-results { list-style: none; padding: 0; margin: .5rem 0 0; display: grid; gap: .3rem; }
+.role-results li { position: relative; padding-left: 1.1rem; color: var(--text); font-size: .88rem; line-height: 1.5; }
+.role-results li::before { content: "▸"; position: absolute; left: 0; color: var(--accent); font-weight: 700; }
 
 /* ---------- Skills (chips por categoria) ---------- */
 .skills { display: grid; gap: 1.1rem; }
