@@ -88,7 +88,7 @@ PT = {
               "estabilidade da plataforma.",
               "Reduzi cerca de 30% do custo de nuvem ao corrigir bugs de consumo excessivo "
               "(ex.: escalonamento indevido por esgotamento de portas), migrar a "
-              "hospedagem de Windows para Linux e otimizar soluções existentes."]),
+              "hospedagem de Windows para Linux e otimizar consumo de banda larga."]),
             ("Desenvolvedor Full Stack", "set 2018 – jan 2019",
              "Desenvolvimento back-end (C#) e front-end (Angular) do PDV, com integrações "
              "de meios de pagamento (POS Stone) e plataformas de delivery (iFood, Rappi), "
@@ -180,7 +180,7 @@ EN = {
               "stability.",
               "Reduced cloud costs by around 30% by fixing excessive-consumption bugs "
               "(e.g., unnecessary auto-scaling caused by port exhaustion), migrating "
-              "hosting from Windows to Linux and optimizing existing solutions."]),
+              "hosting from Windows to Linux and optimizing bandwidth usage."]),
             ("Full Stack Developer", "Sep 2018 – Jan 2019",
              "Back-end (C#) and Angular front-end development for the POS, with payment "
              "(Stone POS) and delivery (iFood, Rappi) integrations, infrastructure "
