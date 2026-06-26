@@ -75,7 +75,7 @@ PT = {
               "requisições por minuto."]),
         ]),
         ("Linked Tech", "São Paulo, Brasil", [
-            ("Arquiteto de Soluções", "fev 2019 – mar 2025",
+            ("Arquiteto de Soluções", "fev 2019 – out 2024",
              "Arquitetura de uma plataforma de PDV/food-service em microsserviços .NET "
              "(Clean Architecture e CQRS), com bibliotecas compartilhadas (NuGet) e "
              "persistência poliglota (SQL Server, Redis, CouchDB e SQLite offline). "
@@ -169,7 +169,7 @@ EN = {
              ["Designed a microservices architecture sized for 1,000 requests per minute."]),
         ]),
         ("Linked Tech", "São Paulo, Brazil", [
-            ("Solutions Architect", "Feb 2019 – Mar 2025",
+            ("Solutions Architect", "Feb 2019 – Oct 2024",
              "Architecture of a POS/food-service platform built as .NET microservices "
              "(Clean Architecture and CQRS), with shared NuGet libraries and polyglot "
              "persistence (SQL Server, Redis, CouchDB and offline SQLite). Azure Service "
