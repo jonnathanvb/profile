@@ -84,7 +84,7 @@
         "Gestão de Dívida Técnica: equilíbrio entre entregas rápidas (time-to-market) e a sustentabilidade técnica da plataforma a longo prazo.",
         "Integração e Governança: definição de políticas para APIs, comunicação entre sistemas e estratégia de nuvem (cloud strategy)."],
       "resume.r.linked.a.results": [
-        "Redução de 80% na taxa de incidentes em produção, com estratégias robustas de testes automatizados (TDD/BDD) e observabilidade.",
+        "Confiabilidade: redução de 80% na taxa de incidentes em produção, com estratégias robustas de testes automatizados (TDD/BDD) e observabilidade.",
         "Otimização de Custos: redução de 30% nos custos mensais de infraestrutura em nuvem (Azure) através de ajustes na arquitetura e otimização de recursos.",
         "Performance: redução da latência média em 300 ms com estratégias de cache e refatoração de queries.",
         "Escalabilidade: transição de arquitetura monolítica (escalonamento vertical) para um modelo horizontal (scale-out), permitindo a distribuição elástica de carga entre instâncias sob demanda.",
@@ -200,7 +200,7 @@
         "Technical Debt Management: balancing fast delivery (time-to-market) with the platform's long-term technical sustainability.",
         "Integration and Governance: defining policies for APIs, inter-system communication and cloud strategy."],
       "resume.r.linked.a.results": [
-        "80% reduction in production incidents, with robust automated testing (TDD/BDD) and observability.",
+        "Reliability: 80% reduction in production incidents, with robust automated testing (TDD/BDD) and observability.",
         "Cost Optimization: 30% reduction in monthly cloud infrastructure costs (Azure) through architecture adjustments and resource optimization.",
         "Performance: 300 ms reduction in average latency through caching strategies and query refactoring.",
         "Scalability: transition from a monolithic architecture (vertical scaling) to a horizontal model (scale-out), enabling elastic load distribution across instances on demand.",
