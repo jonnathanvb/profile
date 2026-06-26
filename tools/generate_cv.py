@@ -131,7 +131,6 @@ PT = {
     "highlights": [
         "Alura: +280 cursos concluídos e 11.427 exercícios resolvidos.",
         "Mais de {years} anos de experiência em desenvolvimento e arquitetura.",
-        "Foco atual: certificações Microsoft em arquitetura e IA.",
     ],
     "languages": "Português (Nativo) &nbsp;·&nbsp; Inglês (Básico)",
 }
@@ -225,7 +224,6 @@ EN = {
     "highlights": [
         "Alura: 280+ courses completed and 11,427 exercises solved.",
         "{years}+ years of experience in development and architecture.",
-        "Current focus: Microsoft certifications in architecture and AI.",
     ],
     "languages": "Portuguese (Native) &nbsp;·&nbsp; English (Basic)",
 }

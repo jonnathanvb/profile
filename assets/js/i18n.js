@@ -35,8 +35,6 @@
       "about.p2": "Conheço de perto os módulos que sustentam o negócio: estoque, vendas, financeiro (fechamento de caixa e conciliação) e fiscal (emissão de NFC-e e integração com a SEFAZ). Também atuei com o ERP TOTVS (Protheus), entendendo as rotinas de quem opera esses processos no dia a dia.",
       "about.p3": "Essa vivência me trouxe atenção redobrada à confiabilidade e à conformidade — em sistemas que lidam com dinheiro e obrigações fiscais, cada detalhe importa. No lado técnico, trabalho com back-end em C#/.NET, front-end em Angular e nuvem Microsoft Azure; como Arquiteto de Soluções, atuo nas decisões estratégicas (arquitetura, governança técnica e mentoria), sempre alinhado aos objetivos do negócio.",
       "about.location": "Localização",
-      "about.languages": "Idiomas",
-      "about.languagesValue": "Português (Nativo), Inglês (Básico)",
       "about.availability": "Disponibilidade",
       "about.availabilityValue": "Aberto a novas oportunidades",
       "about.whatIDo": "O que eu faço",
@@ -91,7 +89,6 @@
 
       "resume.h.alura": "Alura: +280 cursos concluídos e 11.427 exercícios resolvidos",
       "resume.h.exp": "Mais de {years} anos de experiência em desenvolvimento e arquitetura",
-      "resume.h.cert": "Foco atual: certificações Microsoft em arquitetura e IA",
 
       "contact.title": "Contato",
       "contact.lead": "Vamos conversar sobre seu próximo projeto ou oportunidade? Fico à disposição.",
@@ -126,8 +123,6 @@
       "about.p2": "I know the modules that run the business firsthand: inventory, sales, finance (cash closing and reconciliation) and fiscal (NFC-e issuance and SEFAZ integration). I also worked with the TOTVS (Protheus) ERP, understanding the daily routines of the people who operate these processes.",
       "about.p3": "This background gave me heightened attention to reliability and compliance — in systems that handle money and tax obligations, every detail matters. On the technical side, I work with C#/.NET back-end, Angular front-end and Microsoft Azure cloud; as a Solutions Architect, I drive strategic decisions (architecture, technical governance and mentoring), always aligned with business goals.",
       "about.location": "Location",
-      "about.languages": "Languages",
-      "about.languagesValue": "Portuguese (Native), English (Basic)",
       "about.availability": "Availability",
       "about.availabilityValue": "Open to new opportunities",
       "about.whatIDo": "What I do",
@@ -182,7 +177,6 @@
 
       "resume.h.alura": "Alura: 280+ courses completed and 11,427 exercises solved",
       "resume.h.exp": "{years}+ years of experience in development and architecture",
-      "resume.h.cert": "Current focus: Microsoft certifications in architecture and AI",
 
       "contact.title": "Contact",
       "contact.lead": "Want to talk about your next project or opportunity? I'm available.",
