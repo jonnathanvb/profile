@@ -48,7 +48,8 @@ PT = {
     "contact": ("Itapevi, São Paulo — Brasil &nbsp;·&nbsp; macstudio.com.br "
                 "&nbsp;·&nbsp; contato@macstudio.com.br"),
     "sec": {"about": "Sobre", "exp": "Experiência", "edu": "Formação",
-            "skills": "Competências", "high": "Destaques", "lang": "Idiomas"},
+            "skills": "Competências", "high": "Destaques", "lang": "Idiomas",
+            "acts": "Atividades", "res": "Resultados"},
     "about": [
         "Engenheiro de software com mais de {years} anos de experiência ajudando empresas a "
         "transformar a operação do dia a dia em sistemas confiáveis, com forte vivência em "
@@ -68,22 +69,22 @@ PT = {
     "experience": [
         ("Genesis Digital Solutions", "Lisboa, Portugal · Remoto", [
             ("Arquiteto de Software", "out 2024 – fev 2026",
-             "Back-end .NET (C#) e front-end (Angular, Vue), Infraestrutura como Código "
-             "(IaC/Terraform), CI/CD e Azure (Web Apps, Functions, Storage, Service Bus, "
-             "Database, VM).",
+             ["Back-end em .NET (C#) e front-end em Angular e Vue.",
+              "Infraestrutura como Código (Terraform) e pipelines de CI/CD.",
+              "Soluções em Azure (Web Apps, Functions, Storage, Service Bus, Database, VM)."],
              ["Projetei uma arquitetura em microsserviços dimensionada para 1.000 "
               "requisições por minuto."]),
         ]),
         ("Linked Tech", "São Paulo, Brasil", [
             ("Arquiteto de Software", "fev 2019 – out 2024",
-             "Arquitetura de uma plataforma de PDV/food-service em microsserviços .NET "
-             "(Clean Architecture e CQRS), com bibliotecas compartilhadas (NuGet) e "
-             "persistência poliglota (SQL Server, Redis, CouchDB e SQLite offline). "
-             "Mensageria com Azure Service Bus, módulos em tempo real (KDS via Socket.IO), "
-             "autenticação centralizada (SSO) com Keycloak e integração fiscal "
-             "(SEFAZ/NFCe, SAT) e de periféricos. Responsável por padrões técnicos, "
-             "governança, revisão de código, infraestrutura Azure (Azure Container Apps) "
-             "com CI/CD e mentoria do time.",
+             ["Arquitetura de plataforma de PDV/food-service em microsserviços .NET "
+              "(Clean Architecture e CQRS) com bibliotecas compartilhadas (NuGet).",
+              "Persistência poliglota (SQL Server, Redis, CouchDB e SQLite offline) e "
+              "mensageria com Azure Service Bus.",
+              "Módulos em tempo real (KDS via Socket.IO), SSO com Keycloak e integração "
+              "fiscal (SEFAZ/NFC-e, SAT) e de periféricos.",
+              "Padrões técnicos, governança, revisão de código, infraestrutura Azure "
+              "(Container Apps) com CI/CD e mentoria do time."],
              ["Reduzi a fila de bugs de ~1.000 para ~10, elevando de forma expressiva a "
               "estabilidade da plataforma.",
               "Reduzi cerca de 30% do custo de nuvem ao corrigir bugs de consumo excessivo "
@@ -92,26 +93,33 @@ PT = {
               "Implementei pipelines de CI/CD, eliminando publicações manuais que levavam "
               "horas; o empacotamento e o deploy passaram a levar menos de 5 minutos."]),
             ("Desenvolvedor Full Stack", "set 2018 – jan 2019",
-             "Desenvolvimento back-end (C#) e front-end (Angular) do PDV, com integrações "
-             "de meios de pagamento (POS Stone) e plataformas de delivery (iFood, Rappi), "
-             "automação de infraestrutura e CI/CD."),
+             ["Desenvolvimento back-end (C#) e front-end (Angular) do PDV.",
+              "Integrações de meios de pagamento (POS Stone) e delivery (iFood, Rappi).",
+              "Automação de infraestrutura e CI/CD."],
+             []),
         ]),
         ("Iterative", "São Paulo, Brasil", [
             ("Desenvolvedor Full Stack", "jun 2017 – ago 2018",
-             "APIs em .NET (projeto ConectCar), boas práticas de front-end com Angular "
-             "(projeto Poder do Voto) e aplicação web (HTML/CSS/JS) para o POS da Stone."),
+             ["Desenvolvimento de APIs em .NET (projeto ConectCar).",
+              "Boas práticas de front-end com Angular (projeto Poder do Voto).",
+              "Aplicação web (HTML/CSS/JS) para o POS da Stone."],
+             []),
         ]),
         ("Betta Tecnologia", "São Paulo, Brasil", [
             ("Desenvolvedor", "jan 2017 – jun 2017",
-             "Desenvolvimento e manutenção de sistemas (.NET e PHP) para as universidades "
-             "FMU e Anhembi Morumbi."),
+             ["Desenvolvimento e manutenção de sistemas em .NET e PHP.",
+              "Atendimento às universidades FMU e Anhembi Morumbi."],
+             []),
         ]),
         ("Link do Brasil", "Barueri, São Paulo", [
             ("Desenvolvedor", "jul 2015 – dez 2016",
-             "Sistemas internos em C#, manutenção em VB.NET e suporte ao ERP TOTVS."),
+             ["Desenvolvimento de sistemas internos em C# e manutenção em VB.NET.",
+              "Suporte técnico ao ERP TOTVS."],
+             []),
             ("Estagiário", "jul 2013 – jun 2015",
-             "Migração de sistemas legados de VB6 para VB.NET, manutenção de sistemas "
-             "internos e suporte ao ERP TOTVS."),
+             ["Migração de sistemas legados de VB6 para VB.NET.",
+              "Manutenção de sistemas internos e suporte ao ERP TOTVS."],
+             []),
         ]),
     ],
     "education": [
@@ -143,7 +151,8 @@ EN = {
     "contact": ("Itapevi, São Paulo — Brazil &nbsp;·&nbsp; macstudio.com.br "
                 "&nbsp;·&nbsp; contato@macstudio.com.br"),
     "sec": {"about": "About", "exp": "Experience", "edu": "Education",
-            "skills": "Skills", "high": "Highlights", "lang": "Languages"},
+            "skills": "Skills", "high": "Highlights", "lang": "Languages",
+            "acts": "Activities", "res": "Results"},
     "about": [
         "Software engineer with over {years} years of experience helping companies turn "
         "day-to-day operations into reliable systems, with a strong background in retail, "
@@ -163,20 +172,21 @@ EN = {
     "experience": [
         ("Genesis Digital Solutions", "Lisbon, Portugal · Remote", [
             ("Software Architect", "Oct 2024 – Feb 2026",
-             "Back-end .NET (C#) and front-end (Angular, Vue), Infrastructure as Code "
-             "(IaC/Terraform), CI/CD and Azure (Web Apps, Functions, Storage, Service Bus, "
-             "Database, VM).",
+             ["Back-end in .NET (C#) and front-end in Angular and Vue.",
+              "Infrastructure as Code (Terraform) and CI/CD pipelines.",
+              "Azure solutions (Web Apps, Functions, Storage, Service Bus, Database, VM)."],
              ["Designed a microservices architecture sized for 1,000 requests per minute."]),
         ]),
         ("Linked Tech", "São Paulo, Brazil", [
             ("Software Architect", "Feb 2019 – Oct 2024",
-             "Architecture of a POS/food-service platform built as .NET microservices "
-             "(Clean Architecture and CQRS), with shared NuGet libraries and polyglot "
-             "persistence (SQL Server, Redis, CouchDB and offline SQLite). Azure Service "
-             "Bus messaging, real-time modules (KDS over Socket.IO), centralized "
-             "authentication (SSO) with Keycloak, and fiscal (SEFAZ/NFCe, SAT) and "
-             "peripheral integrations. Owned technical standards, governance, code review, "
-             "Azure infrastructure (Azure Container Apps) with CI/CD and team mentoring.",
+             ["Architecture of a POS/food-service platform as .NET microservices "
+              "(Clean Architecture and CQRS) with shared NuGet libraries.",
+              "Polyglot persistence (SQL Server, Redis, CouchDB and offline SQLite) and "
+              "Azure Service Bus messaging.",
+              "Real-time modules (KDS over Socket.IO), SSO with Keycloak and fiscal "
+              "(SEFAZ/NFC-e, SAT) and peripheral integrations.",
+              "Technical standards, governance, code review, Azure infrastructure "
+              "(Container Apps) with CI/CD and team mentoring."],
              ["Cut the bug backlog from ~1,000 to ~10, significantly improving platform "
               "stability.",
               "Reduced cloud costs by around 30% by fixing excessive-consumption bugs "
@@ -185,26 +195,33 @@ EN = {
               "Implemented CI/CD pipelines, eliminating manual deployments that took hours; "
               "packaging and release dropped to under 5 minutes."]),
             ("Full Stack Developer", "Sep 2018 – Jan 2019",
-             "Back-end (C#) and Angular front-end development for the POS, with payment "
-             "(Stone POS) and delivery (iFood, Rappi) integrations, infrastructure "
-             "automation and CI/CD."),
+             ["Back-end (C#) and Angular front-end development for the POS.",
+              "Payment (Stone POS) and delivery (iFood, Rappi) integrations.",
+              "Infrastructure automation and CI/CD."],
+             []),
         ]),
         ("Iterative", "São Paulo, Brazil", [
             ("Full Stack Developer", "Jun 2017 – Aug 2018",
-             ".NET APIs (ConectCar project), front-end best practices with Angular "
-             "(Poder do Voto project) and a web app (HTML/CSS/JS) for the Stone POS."),
+             [".NET API development (ConectCar project).",
+              "Front-end best practices with Angular (Poder do Voto project).",
+              "Web app (HTML/CSS/JS) for the Stone POS."],
+             []),
         ]),
         ("Betta Tecnologia", "São Paulo, Brazil", [
             ("Developer", "Jan 2017 – Jun 2017",
-             "Development and maintenance of .NET and PHP systems for FMU and Anhembi "
-             "Morumbi universities."),
+             ["Development and maintenance of .NET and PHP systems.",
+              "Served FMU and Anhembi Morumbi universities."],
+             []),
         ]),
         ("Link do Brasil", "Barueri, São Paulo", [
             ("Developer", "Jul 2015 – Dec 2016",
-             "Internal systems in C#, VB.NET maintenance and TOTVS ERP support."),
+             ["Internal systems in C# and VB.NET maintenance.",
+              "TOTVS ERP technical support."],
+             []),
             ("Intern", "Jul 2013 – Jun 2015",
-             "Migration of legacy systems from VB6 to VB.NET, internal systems "
-             "maintenance and TOTVS ERP support."),
+             ["Migration of legacy systems from VB6 to VB.NET.",
+              "Internal systems maintenance and TOTVS ERP support."],
+             []),
         ]),
     ],
     "education": [
@@ -250,6 +267,8 @@ st_desc = ParagraphStyle("desc", fontName="Helvetica", fontSize=9,
 st_result = ParagraphStyle("result", fontName="Helvetica", fontSize=8.8,
                            textColor=INK, leading=12, spaceBefore=1,
                            leftIndent=11, firstLineIndent=-11)
+st_sublabel = ParagraphStyle("sublabel", fontName="Helvetica-Bold", fontSize=7.5,
+                             textColor=MUTED, leading=10, spaceBefore=4, spaceAfter=1)
 st_eduinst = ParagraphStyle("eduinst", fontName="Helvetica", fontSize=9,
                             textColor=ACCENT, leading=12)
 st_body = ParagraphStyle("body", fontName="Helvetica", fontSize=9,
@@ -325,12 +344,17 @@ def build(data):
         story.append(Paragraph(place, st_place))
         story.append(Spacer(1, 2))
         for role in roles:
-            title, period, desc = role[0], role[1], role[2]
+            title, period, activities = role[0], role[1], role[2]
             results = role[3] if len(role) > 3 else []
             story.append(title_period(title, period, st_roletitle))
-            story.append(Paragraph(desc, st_desc))
-            for r in results:
-                story.append(Paragraph('<font color="#0e7490">•</font>&nbsp; ' + r, st_result))
+            if activities:
+                story.append(Paragraph(sec["acts"].upper(), st_sublabel))
+                for a in activities:
+                    story.append(Paragraph('<font color="#8a8a8a">•</font>&nbsp; ' + a, st_result))
+            if results:
+                story.append(Paragraph(sec["res"].upper(), st_sublabel))
+                for r in results:
+                    story.append(Paragraph('<font color="#0e7490">•</font>&nbsp; ' + r, st_result))
             story.append(Spacer(1, 4))
         story.append(Spacer(1, 3))
 

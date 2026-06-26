@@ -28,7 +28,7 @@
       "home.lead": "Mais de {years} anos transformando requisitos de negócio em sistemas escaláveis, com foco em arquitetura de software, back-end .NET e nuvem Azure.",
       "home.ctaResume": "Ver currículo",
       "home.ctaContact": "Fale comigo",
-      "home.typedRoles": ["Arquiteto de Soluções", "Tech Lead", "Desenvolvedor .NET", "Especialista em Azure"],
+      "home.typedRoles": ["Tech Lead", "Desenvolvedor .NET", "Especialista em Azure"],
 
       "about.title": "Sobre mim",
       "about.p1": "Engenheiro de software com mais de {years} anos de experiência ajudando empresas a transformar a operação do dia a dia em sistemas confiáveis, com forte vivência em varejo, ponto de venda (PDV) e gestão empresarial (ERP). Atuo de ponta a ponta — do desenvolvimento full stack à definição de arquitetura de sistemas distribuídos —, com passagem por startups e empresas de tecnologia no Brasil e em Portugal.",
@@ -64,25 +64,48 @@
       "skill.fiscal": "Integração fiscal (NFC-e/SEFAZ)",
       "resume.highlights": "Destaques",
       "common.remote": "Remoto",
+      "resume.activities": "Atividades",
+      "resume.results": "Resultados",
 
       "resume.r.genesis.title": "Arquiteto de Software",
-      "resume.r.genesis.desc": "Back-end .NET (C#) e front-end (Angular, Vue), Infraestrutura como Código (IaC/Terraform), CI/CD e Azure (Web Apps, Functions, Storage, Service Bus, Database, VM).",
-      "resume.r.genesis.res1": "Projetei uma arquitetura em microsserviços dimensionada para 1.000 requisições por minuto.",
+      "resume.r.genesis.activities": [
+        "Back-end em .NET (C#) e front-end em Angular e Vue.",
+        "Infraestrutura como Código (Terraform) e pipelines de CI/CD.",
+        "Soluções em Azure (Web Apps, Functions, Storage, Service Bus, Database, VM)."],
+      "resume.r.genesis.results": [
+        "Projetei uma arquitetura em microsserviços dimensionada para 1.000 requisições por minuto."],
       "resume.r.linked.a.title": "Arquiteto de Software",
-      "resume.r.linked.a.desc": "Arquitetura de uma plataforma de PDV/food-service em microsserviços .NET (Clean Architecture e CQRS), com bibliotecas compartilhadas (NuGet) e persistência poliglota (SQL Server, Redis, CouchDB e SQLite offline). Mensageria com Azure Service Bus, módulos em tempo real (KDS via Socket.IO), autenticação centralizada (SSO) com Keycloak e integração fiscal (SEFAZ/NFCe, SAT) e de periféricos. Responsável por padrões técnicos, governança, revisão de código, infraestrutura Azure (Azure Container Apps) com CI/CD e mentoria do time.",
-      "resume.r.linked.a.res1": "Reduzi a fila de bugs de ~1.000 para ~10, elevando de forma expressiva a estabilidade da plataforma.",
-      "resume.r.linked.a.res2": "Reduzi cerca de 30% do custo de nuvem ao corrigir bugs de consumo excessivo (ex.: escalonamento indevido por esgotamento de portas), migrar a hospedagem de Windows para Linux e otimizar consumo de banda larga.",
-      "resume.r.linked.a.res3": "Implementei pipelines de CI/CD, eliminando publicações manuais que levavam horas; o empacotamento e o deploy passaram a levar menos de 5 minutos.",
+      "resume.r.linked.a.activities": [
+        "Arquitetura de plataforma de PDV/food-service em microsserviços .NET (Clean Architecture e CQRS) com bibliotecas compartilhadas (NuGet).",
+        "Persistência poliglota (SQL Server, Redis, CouchDB e SQLite offline) e mensageria com Azure Service Bus.",
+        "Módulos em tempo real (KDS via Socket.IO), SSO com Keycloak e integração fiscal (SEFAZ/NFC-e, SAT) e de periféricos.",
+        "Padrões técnicos, governança, revisão de código, infraestrutura Azure (Container Apps) com CI/CD e mentoria do time."],
+      "resume.r.linked.a.results": [
+        "Reduzi a fila de bugs de ~1.000 para ~10, elevando de forma expressiva a estabilidade da plataforma.",
+        "Reduzi cerca de 30% do custo de nuvem ao corrigir bugs de consumo excessivo (ex.: escalonamento indevido por esgotamento de portas), migrar a hospedagem de Windows para Linux e otimizar consumo de banda larga.",
+        "Implementei pipelines de CI/CD, eliminando publicações manuais que levavam horas; o empacotamento e o deploy passaram a levar menos de 5 minutos."],
       "resume.r.linked.b.title": "Desenvolvedor Full Stack",
-      "resume.r.linked.b.desc": "Desenvolvimento back-end (C#) e front-end (Angular) do PDV, com integrações de meios de pagamento (POS Stone) e plataformas de delivery (iFood, Rappi), automação de infraestrutura e CI/CD.",
+      "resume.r.linked.b.activities": [
+        "Desenvolvimento back-end (C#) e front-end (Angular) do PDV.",
+        "Integrações de meios de pagamento (POS Stone) e delivery (iFood, Rappi).",
+        "Automação de infraestrutura e CI/CD."],
       "resume.r.iterative.title": "Desenvolvedor Full Stack",
-      "resume.r.iterative.desc": "APIs em .NET (projeto ConectCar), boas práticas de front-end com Angular (projeto Poder do Voto) e aplicação web (HTML/CSS/JS) para o POS da Stone.",
+      "resume.r.iterative.activities": [
+        "Desenvolvimento de APIs em .NET (projeto ConectCar).",
+        "Boas práticas de front-end com Angular (projeto Poder do Voto).",
+        "Aplicação web (HTML/CSS/JS) para o POS da Stone."],
       "resume.r.betta.title": "Desenvolvedor",
-      "resume.r.betta.desc": "Desenvolvimento e manutenção de sistemas (.NET e PHP) para as universidades FMU e Anhembi Morumbi.",
+      "resume.r.betta.activities": [
+        "Desenvolvimento e manutenção de sistemas em .NET e PHP.",
+        "Atendimento às universidades FMU e Anhembi Morumbi."],
       "resume.r.link.a.title": "Desenvolvedor",
-      "resume.r.link.a.desc": "Sistemas internos em C#, manutenção em VB.NET e suporte ao ERP TOTVS.",
+      "resume.r.link.a.activities": [
+        "Desenvolvimento de sistemas internos em C# e manutenção em VB.NET.",
+        "Suporte técnico ao ERP TOTVS."],
       "resume.r.link.b.title": "Estagiário",
-      "resume.r.link.b.desc": "Migração de sistemas legados de VB6 para VB.NET, manutenção de sistemas internos e suporte ao ERP TOTVS.",
+      "resume.r.link.b.activities": [
+        "Migração de sistemas legados de VB6 para VB.NET.",
+        "Manutenção de sistemas internos e suporte ao ERP TOTVS."],
 
       "resume.e.uninove.title": "Bacharelado em Sistemas de Informação",
       "resume.e.fieb.title": "Técnico em Informática",
@@ -116,7 +139,7 @@
       "home.lead": "{years}+ years turning business requirements into scalable systems, focused on software architecture, .NET back-end and Azure cloud.",
       "home.ctaResume": "View resume",
       "home.ctaContact": "Get in touch",
-      "home.typedRoles": ["Solutions Architect", "Tech Lead", ".NET Developer", "Azure Specialist"],
+      "home.typedRoles": ["Tech Lead", ".NET Developer", "Azure Specialist"],
 
       "about.title": "About me",
       "about.p1": "Software engineer with over {years} years of experience helping companies turn day-to-day operations into reliable systems, with a strong background in retail, point of sale (POS) and enterprise management (ERP). I work end to end — from full stack development to the architecture of distributed systems — with experience at startups and technology companies in Brazil and Portugal.",
@@ -152,25 +175,48 @@
       "skill.fiscal": "Fiscal integration (NFC-e/SEFAZ)",
       "resume.highlights": "Highlights",
       "common.remote": "Remote",
+      "resume.activities": "Activities",
+      "resume.results": "Results",
 
       "resume.r.genesis.title": "Software Architect",
-      "resume.r.genesis.desc": "Back-end .NET (C#) and front-end (Angular, Vue), Infrastructure as Code (IaC/Terraform), CI/CD and Azure (Web Apps, Functions, Storage, Service Bus, Database, VM).",
-      "resume.r.genesis.res1": "Designed a microservices architecture sized for 1,000 requests per minute.",
+      "resume.r.genesis.activities": [
+        "Back-end in .NET (C#) and front-end in Angular and Vue.",
+        "Infrastructure as Code (Terraform) and CI/CD pipelines.",
+        "Azure solutions (Web Apps, Functions, Storage, Service Bus, Database, VM)."],
+      "resume.r.genesis.results": [
+        "Designed a microservices architecture sized for 1,000 requests per minute."],
       "resume.r.linked.a.title": "Software Architect",
-      "resume.r.linked.a.desc": "Architecture of a POS/food-service platform built as .NET microservices (Clean Architecture and CQRS), with shared NuGet libraries and polyglot persistence (SQL Server, Redis, CouchDB and offline SQLite). Azure Service Bus messaging, real-time modules (KDS over Socket.IO), centralized authentication (SSO) with Keycloak, and fiscal (SEFAZ/NFCe, SAT) and peripheral integrations. Owned technical standards, governance, code review, Azure infrastructure (Azure Container Apps) with CI/CD and team mentoring.",
-      "resume.r.linked.a.res1": "Cut the bug backlog from ~1,000 to ~10, significantly improving platform stability.",
-      "resume.r.linked.a.res2": "Reduced cloud costs by around 30% by fixing excessive-consumption bugs (e.g., unnecessary auto-scaling caused by port exhaustion), migrating hosting from Windows to Linux and optimizing bandwidth usage.",
-      "resume.r.linked.a.res3": "Implemented CI/CD pipelines, eliminating manual deployments that took hours; packaging and release dropped to under 5 minutes.",
+      "resume.r.linked.a.activities": [
+        "Architecture of a POS/food-service platform as .NET microservices (Clean Architecture and CQRS) with shared NuGet libraries.",
+        "Polyglot persistence (SQL Server, Redis, CouchDB and offline SQLite) and Azure Service Bus messaging.",
+        "Real-time modules (KDS over Socket.IO), SSO with Keycloak and fiscal (SEFAZ/NFC-e, SAT) and peripheral integrations.",
+        "Technical standards, governance, code review, Azure infrastructure (Container Apps) with CI/CD and team mentoring."],
+      "resume.r.linked.a.results": [
+        "Cut the bug backlog from ~1,000 to ~10, significantly improving platform stability.",
+        "Reduced cloud costs by around 30% by fixing excessive-consumption bugs (e.g., unnecessary auto-scaling caused by port exhaustion), migrating hosting from Windows to Linux and optimizing bandwidth usage.",
+        "Implemented CI/CD pipelines, eliminating manual deployments that took hours; packaging and release dropped to under 5 minutes."],
       "resume.r.linked.b.title": "Full Stack Developer",
-      "resume.r.linked.b.desc": "Back-end (C#) and Angular front-end development for the POS, with payment (Stone POS) and delivery (iFood, Rappi) integrations, infrastructure automation and CI/CD.",
+      "resume.r.linked.b.activities": [
+        "Back-end (C#) and Angular front-end development for the POS.",
+        "Payment (Stone POS) and delivery (iFood, Rappi) integrations.",
+        "Infrastructure automation and CI/CD."],
       "resume.r.iterative.title": "Full Stack Developer",
-      "resume.r.iterative.desc": ".NET APIs (ConectCar project), front-end best practices with Angular (Poder do Voto project) and a web app (HTML/CSS/JS) for the Stone POS.",
+      "resume.r.iterative.activities": [
+        ".NET API development (ConectCar project).",
+        "Front-end best practices with Angular (Poder do Voto project).",
+        "Web app (HTML/CSS/JS) for the Stone POS."],
       "resume.r.betta.title": "Developer",
-      "resume.r.betta.desc": "Development and maintenance of systems (.NET and PHP) for FMU and Anhembi Morumbi universities.",
+      "resume.r.betta.activities": [
+        "Development and maintenance of .NET and PHP systems.",
+        "Served FMU and Anhembi Morumbi universities."],
       "resume.r.link.a.title": "Developer",
-      "resume.r.link.a.desc": "Internal systems in C#, VB.NET maintenance and TOTVS ERP support.",
+      "resume.r.link.a.activities": [
+        "Internal systems in C# and VB.NET maintenance.",
+        "TOTVS ERP technical support."],
       "resume.r.link.b.title": "Intern",
-      "resume.r.link.b.desc": "Migration of legacy systems from VB6 to VB.NET, internal systems maintenance and TOTVS ERP support.",
+      "resume.r.link.b.activities": [
+        "Migration of legacy systems from VB6 to VB.NET.",
+        "Internal systems maintenance and TOTVS ERP support."],
 
       "resume.e.uninove.title": "Bachelor's in Information Systems",
       "resume.e.fieb.title": "Technical degree in IT",

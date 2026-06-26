@@ -9,6 +9,25 @@
   const yearEl = document.getElementById("year");
   if (yearEl) yearEl.textContent = String(new Date().getFullYear());
 
+  /* ---------- Detalhes do cargo: Atividades + Resultados (vêm do i18n) ---------- */
+  function renderRoleDetails() {
+    if (!window.i18n) return;
+    const lblA = window.i18n.get("resume.activities") || "Atividades";
+    const lblR = window.i18n.get("resume.results") || "Resultados";
+    const list = (items, cls) =>
+      '<ul class="' + cls + '">' + items.map((t) => "<li>" + t + "</li>").join("") + "</ul>";
+    document.querySelectorAll(".role-detail").forEach((el) => {
+      const acts = window.i18n.get(el.dataset.acts) || [];
+      const res = el.dataset.res ? (window.i18n.get(el.dataset.res) || []) : [];
+      let html = "";
+      if (acts.length) html += '<span class="role-sublabel">' + lblA + "</span>" + list(acts, "role-list");
+      if (res.length) html += '<span class="role-sublabel">' + lblR + "</span>" + list(res, "role-results");
+      el.innerHTML = html;
+    });
+  }
+  renderRoleDetails();
+  document.addEventListener("langchange", renderRoleDetails);
+
   const sidebar = document.getElementById("sidebar");
   function hideSidebar() {
     const oc = window.bootstrap && bootstrap.Offcanvas.getInstance(sidebar);
