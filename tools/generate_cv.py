@@ -77,21 +77,40 @@ PT = {
         ]),
         ("Linked Tech", "São Paulo, Brasil", [
             ("Arquiteto de Software", "fev 2019 – out 2024",
-             ["Arquitetura de plataforma de PDV/food-service em microsserviços .NET "
-              "(Clean Architecture e CQRS) com bibliotecas compartilhadas (NuGet).",
-              "Persistência poliglota (SQL Server, Redis, CouchDB e SQLite offline) e "
-              "mensageria com Azure Service Bus.",
-              "Módulos em tempo real (KDS via Socket.IO), SSO com Keycloak e integração "
-              "fiscal (SEFAZ/NFC-e, SAT) e de periféricos.",
-              "Padrões técnicos, governança, revisão de código, infraestrutura Azure "
-              "(Container Apps) com CI/CD e mentoria do time."],
-             ["Reduzi a fila de bugs de ~1.000 para ~10, elevando de forma expressiva a "
-              "estabilidade da plataforma.",
-              "Reduzi cerca de 30% do custo de nuvem ao corrigir bugs de consumo excessivo "
-              "(ex.: escalonamento indevido por esgotamento de portas), migrar a "
-              "hospedagem de Windows para Linux e otimizar consumo de banda larga.",
-              "Implementei pipelines de CI/CD, eliminando publicações manuais que levavam "
-              "horas; o empacotamento e o deploy passaram a levar menos de 5 minutos."]),
+             ["Desenho de Arquitetura: definição de padrões de arquitetura (microsserviços, "
+              "orientada a eventos, distribuída) alinhados aos objetivos de longo prazo da "
+              "organização.",
+              "Definição de Tecnologias: seleção criteriosa de stacks, linguagens e "
+              "frameworks, avaliando trade-offs entre custo, performance e facilidade de "
+              "manutenção.",
+              "Liderança Técnica e Mentoria: orientação de times de desenvolvimento (devs e "
+              "tech leads), promovendo boas práticas de código (Clean Architecture e CQRS) "
+              "e revisão de arquitetura.",
+              "Análise e Mitigação de Riscos: identificação proativa de gargalos de "
+              "performance e vulnerabilidades de segurança, garantindo a integridade e "
+              "escalabilidade dos sistemas.",
+              "Gestão de Dívida Técnica: equilíbrio entre entregas rápidas (time-to-market) "
+              "e a sustentabilidade técnica da plataforma a longo prazo.",
+              "Integração e Governança: definição de políticas para APIs, comunicação entre "
+              "sistemas e estratégia de nuvem (cloud strategy)."],
+             ["Redução de 80% na taxa de incidentes em produção, com estratégias robustas "
+              "de testes automatizados (TDD/BDD) e observabilidade.",
+              "Otimização de Custos: redução de 30% nos custos mensais de infraestrutura em "
+              "nuvem (Azure) através de ajustes na arquitetura e otimização de recursos.",
+              "Performance: redução da latência média em 300 ms com estratégias de cache e "
+              "refatoração de queries.",
+              "Escalabilidade: transição de arquitetura monolítica (escalonamento vertical) "
+              "para um modelo horizontal (scale-out), permitindo a distribuição elástica de "
+              "carga entre instâncias sob demanda.",
+              "Otimização do Ciclo de Delivery: pipelines de CI/CD end-to-end eliminando "
+              "processos manuais, reduzindo o Lead Time for Change de horas para menos de 5 "
+              "minutos."],
+             "Desenho de soluções escaláveis, de alta disponibilidade e resilientes. "
+             "Responsável por traduzir requisitos de negócio complexos em arquiteturas "
+             "técnicas eficientes, equilibrando inovação tecnológica com dívida técnica e "
+             "custos operacionais. Focado em liderança técnica, definição de padrões de "
+             "desenvolvimento e orientação de times para a entrega de produtos de alto "
+             "impacto."),
             ("Desenvolvedor Full Stack", "set 2018 – jan 2019",
              ["Desenvolvimento back-end (C#) e front-end (Angular) do PDV.",
               "Integrações de meios de pagamento (POS Stone) e delivery (iFood, Rappi).",
@@ -179,21 +198,37 @@ EN = {
         ]),
         ("Linked Tech", "São Paulo, Brazil", [
             ("Software Architect", "Feb 2019 – Oct 2024",
-             ["Architecture of a POS/food-service platform as .NET microservices "
-              "(Clean Architecture and CQRS) with shared NuGet libraries.",
-              "Polyglot persistence (SQL Server, Redis, CouchDB and offline SQLite) and "
-              "Azure Service Bus messaging.",
-              "Real-time modules (KDS over Socket.IO), SSO with Keycloak and fiscal "
-              "(SEFAZ/NFC-e, SAT) and peripheral integrations.",
-              "Technical standards, governance, code review, Azure infrastructure "
-              "(Container Apps) with CI/CD and team mentoring."],
-             ["Cut the bug backlog from ~1,000 to ~10, significantly improving platform "
-              "stability.",
-              "Reduced cloud costs by around 30% by fixing excessive-consumption bugs "
-              "(e.g., unnecessary auto-scaling caused by port exhaustion), migrating "
-              "hosting from Windows to Linux and optimizing bandwidth usage.",
-              "Implemented CI/CD pipelines, eliminating manual deployments that took hours; "
-              "packaging and release dropped to under 5 minutes."]),
+             ["Architecture Design: defining architecture patterns (microservices, "
+              "event-driven, distributed) aligned with the organization's long-term goals.",
+              "Technology Selection: careful selection of tech stacks, languages and "
+              "frameworks, weighing trade-offs between cost, performance and "
+              "maintainability.",
+              "Technical Leadership and Mentoring: guiding development teams (devs and tech "
+              "leads), promoting code best practices (Clean Architecture and CQRS) and "
+              "architecture review.",
+              "Risk Analysis and Mitigation: proactive identification of performance "
+              "bottlenecks and security vulnerabilities, ensuring system integrity and "
+              "scalability.",
+              "Technical Debt Management: balancing fast delivery (time-to-market) with the "
+              "platform's long-term technical sustainability.",
+              "Integration and Governance: defining policies for APIs, inter-system "
+              "communication and cloud strategy."],
+             ["80% reduction in production incidents, with robust automated testing "
+              "(TDD/BDD) and observability.",
+              "Cost Optimization: 30% reduction in monthly cloud infrastructure costs "
+              "(Azure) through architecture adjustments and resource optimization.",
+              "Performance: 300 ms reduction in average latency through caching strategies "
+              "and query refactoring.",
+              "Scalability: transition from a monolithic architecture (vertical scaling) to "
+              "a horizontal model (scale-out), enabling elastic load distribution across "
+              "instances on demand.",
+              "Delivery Cycle Optimization: end-to-end CI/CD pipelines eliminating manual "
+              "processes, cutting Lead Time for Change from hours to under 5 minutes."],
+             "Design of scalable, highly available and resilient solutions. Responsible for "
+             "translating complex business requirements into efficient technical "
+             "architectures, balancing technological innovation with technical debt and "
+             "operational costs. Focused on technical leadership, defining development "
+             "standards and guiding teams to deliver high-impact products."),
             ("Full Stack Developer", "Sep 2018 – Jan 2019",
              ["Back-end (C#) and Angular front-end development for the POS.",
               "Payment (Stone POS) and delivery (iFood, Rappi) integrations.",
@@ -285,6 +320,14 @@ def section(title):
     ]
 
 
+def bold_lead(t):
+    """Coloca em negrito o rótulo do bullet ('Rótulo: texto'), se houver."""
+    i = t.find(": ")
+    if 0 < i <= 40:
+        return "<b>" + t[:i + 1] + "</b>" + t[i + 1:]
+    return t
+
+
 def title_period(title, period, title_style):
     """Linha: título à esquerda + período alinhado à direita da margem."""
     tbl = Table([[Paragraph(title, title_style), Paragraph(period, st_period)]],
@@ -346,15 +389,18 @@ def build(data):
         for role in roles:
             title, period, activities = role[0], role[1], role[2]
             results = role[3] if len(role) > 3 else []
+            desc = role[4] if len(role) > 4 else ""
             story.append(title_period(title, period, st_roletitle))
+            if desc:
+                story.append(Paragraph(desc, st_desc))
             if activities:
                 story.append(Paragraph(sec["acts"].upper(), st_sublabel))
                 for a in activities:
-                    story.append(Paragraph('<font color="#8a8a8a">•</font>&nbsp; ' + a, st_result))
+                    story.append(Paragraph('<font color="#8a8a8a">•</font>&nbsp; ' + bold_lead(a), st_result))
             if results:
                 story.append(Paragraph(sec["res"].upper(), st_sublabel))
                 for r in results:
-                    story.append(Paragraph('<font color="#0e7490">•</font>&nbsp; ' + r, st_result))
+                    story.append(Paragraph('<font color="#0e7490">•</font>&nbsp; ' + bold_lead(r), st_result))
             story.append(Spacer(1, 4))
         story.append(Spacer(1, 3))
 

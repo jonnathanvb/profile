@@ -215,6 +215,8 @@ a:hover { text-decoration: underline; }
   border: 1px solid var(--border); border-radius: 20px; padding: .05rem .6rem; white-space: nowrap;
 }
 .timeline-desc { color: var(--muted); font-size: .9rem; line-height: 1.65; margin: .35rem 0 0; }
+.role-desc { color: var(--muted); font-size: .9rem; line-height: 1.6; margin: .35rem 0 .15rem; }
+.role-detail strong { color: var(--text); font-weight: 600; }
 .role-sublabel { display: block; margin: .55rem 0 .25rem; font-size: .7rem; font-weight: 600; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); }
 .role-list, .role-results { list-style: none; padding: 0; margin: 0; display: grid; gap: .28rem; }
 .role-list li, .role-results li { position: relative; padding-left: 1.1rem; font-size: .88rem; line-height: 1.5; }

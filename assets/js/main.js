@@ -14,12 +14,23 @@
     if (!window.i18n) return;
     const lblA = window.i18n.get("resume.activities") || "Atividades";
     const lblR = window.i18n.get("resume.results") || "Resultados";
+    // Negrito no rótulo do bullet ("Rótulo: texto"), quando houver
+    const fmt = (t) => {
+      const i = t.indexOf(": ");
+      return (i > 0 && i <= 40)
+        ? "<strong>" + t.slice(0, i + 1) + "</strong>" + t.slice(i + 1)
+        : t;
+    };
     const list = (items, cls) =>
-      '<ul class="' + cls + '">' + items.map((t) => "<li>" + t + "</li>").join("") + "</ul>";
+      '<ul class="' + cls + '">' + items.map((t) => "<li>" + fmt(t) + "</li>").join("") + "</ul>";
     document.querySelectorAll(".role-detail").forEach((el) => {
+      let html = "";
+      if (el.dataset.desc) {
+        const d = window.i18n.get(el.dataset.desc);
+        if (d) html += '<p class="role-desc">' + d + "</p>";
+      }
       const acts = window.i18n.get(el.dataset.acts) || [];
       const res = el.dataset.res ? (window.i18n.get(el.dataset.res) || []) : [];
-      let html = "";
       if (acts.length) html += '<span class="role-sublabel">' + lblA + "</span>" + list(acts, "role-list");
       if (res.length) html += '<span class="role-sublabel">' + lblR + "</span>" + list(res, "role-results");
       el.innerHTML = html;
